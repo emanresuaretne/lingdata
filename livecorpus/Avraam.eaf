@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-17T00:18:09+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-20T12:23:34+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///C:/Users/Imp136/Desktop/Учёба/Авраам.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Авраам.mp4"/>
+            MEDIA_URL="file:///C:/Users/Imp136/Desktop/Учёба/Avraam.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Avraam.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:8ffcb84c-3d84-4b50-9b37-d35962613cd7</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">22</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">46</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="550"/>
@@ -50,6 +50,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="47214"/>
         <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="47282"/>
         <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="50040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="50652"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="51683"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="52119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="58803"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
@@ -106,6 +110,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
                 TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
                 <ANNOTATION_VALUE>угу //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>а сколько машин у тебя? //</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -177,6 +187,130 @@
                 <ANNOTATION_VALUE>эээ / а тут тогда уже и в сторону дом //</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>сейчас одна / я уже / у меня вот недавно была другая продал потому что раз уезжаю в россию / и эту должен вот-вот продать //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="@pav1974m-text"
+        PARTICIPANT="@pav1974m" TIER_ID="transl@pav1974m-text">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>we figured out that we are of the same age //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>forty s... //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>you are forty six while I'm forty five so we're almost... //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>but it's not the cause why we're on first-name basis the cause is erm / it's a tradition around here //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>in fact you'll see a difference in erm / language and it's very intresting the language is very musical and intresting //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>show me please what do you have here //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>and the ho... is it the house? //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>can I see it? //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>yeah //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>and how many cars do you have? //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="@kab1973m-text"
+        PARTICIPANT="@kab1973m" TIER_ID="transl@kab1973m-text">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>yeah //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>six //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>yeah //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>you know th... there / there is only house / let's say somewhere here ///</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>yes it is / here / that is the back side of the house while the front side is located there //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>come on //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>here is the garage //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>garage is erm / I have / roo... / some rooms inside garage //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>you know I'd say / storage room / or / office and sauna //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>such / little //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>erm / and finally here is the house aside //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>for now I have one / I'm already / just the other day I had another one and I sold it because if I leave for Russia / I'm about to sell this one too //</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
@@ -197,7 +331,10 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
         CONTROLLED_VOCABULARY_REF="POS" GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="part of speech" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
         LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT
