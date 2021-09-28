@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-28T22:28:26+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-28T22:34:46+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -243,7 +243,7 @@
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
-        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@pav1974m" TIER_ID="@pav1974m-text">
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@pav1974m" TIER_ID="text@pav1974m">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts11">
@@ -306,7 +306,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
-        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@kab1973m" TIER_ID="@kab1973m-text">
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@kab1973m" TIER_ID="text@kab1973m">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
                 TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts16">
@@ -381,7 +381,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="en"
-        LINGUISTIC_TYPE_REF="translation" PARENT_REF="@pav1974m-text"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="text@pav1974m"
         PARTICIPANT="@pav1974m" TIER_ID="transl@pav1974m-text">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a1">
@@ -435,7 +435,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="en"
-        LINGUISTIC_TYPE_REF="translation" PARENT_REF="@kab1973m-text"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="text@kab1973m"
         PARTICIPANT="@kab1973m" TIER_ID="transl@kab1973m-text">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a2">
@@ -499,7 +499,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
-        LINGUISTIC_TYPE_REF="words" PARENT_REF="@pav1974m-text"
+        LINGUISTIC_TYPE_REF="words" PARENT_REF="text@pav1974m"
         PARTICIPANT="@pav1974m" TIER_ID="words@pav1974m">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
@@ -1085,7 +1085,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
-        LINGUISTIC_TYPE_REF="words" PARENT_REF="@kab1973m-text"
+        LINGUISTIC_TYPE_REF="words" PARENT_REF="text@kab1973m"
         PARTICIPANT="@kab1973m" TIER_ID="words@kab1973m">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a144"
