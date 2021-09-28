@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-27T16:28:09+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-28T15:28:09+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///C:/Users/Imp136/Desktop/Учёба/Avraam.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Avraam.mp4"/>
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="../../Imp136/Desktop/Учёба/Avraam.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:8ffcb84c-3d84-4b50-9b37-d35962613cd7</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">462</PROPERTY>
     </HEADER>
@@ -2802,6 +2802,30 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="gestures" PARTICIPANT="@pav1974m" TIER_ID="gesture@pav1974m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="gesture_meaning"
+        PARENT_REF="gesture@pav1974m" PARTICIPANT="@pav1974m" TIER_ID="gestMeaning@pav1974m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="intonation" PARENT_REF="words@pav1974m"
+        PARTICIPANT="@pav1974m" TIER_ID="intonation@pav1974m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@pav1974m" TIER_ID="focus@pav1974m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@pav1974m" TIER_ID="pause@pav1974m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="gestures" PARTICIPANT="@kab1973m" TIER_ID="gesture@kab1973m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="gesture_meaning"
+        PARENT_REF="gesture@kab1973m" PARTICIPANT="@kab1973m" TIER_ID="gestMeaning@kab1973m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="intonation" PARENT_REF="words@kab1973m"
+        PARTICIPANT="@kab1973m" TIER_ID="intonation@kab1973m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@kab1973m" TIER_ID="focus@kab1973m"/>
+    <TIER ANNOTATOR="emanresuaretne" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@kab1973m" TIER_ID="pause@kab1973m"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
@@ -2823,6 +2847,8 @@
         LINGUISTIC_TYPE_ID="part of speech" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
         GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="intonation" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
     <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
